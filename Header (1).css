@@ -1,0 +1,85 @@
+  
+  
+  
+   .backarrow{
+      font-size: 25px;
+      font-weight: bold;
+     transform: rotate(90deg);
+     float: left;
+      top: 0;
+      margin-top: 0;
+      margin-right:14%;
+      margin-left: 15px;
+    }
+    .backarrow:hover{
+   color: yellow;
+   cursor: pointer;
+   
+      
+    }
+    .Coursedetails{
+  font-size: 25px;
+   background-color: white;
+   color: whitesmoke;
+   margin: 0;
+   width: 100%;
+   position: fixed;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   top: 0;
+   background: linear-gradient(
+  -90deg, yellow, black, red, blue
+  );
+  background-size: 400% 400%;
+  animation: gradient .9s ease infinite;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+      
+    }
+    
+@keyframes gradient
+{
+0%  { background-position: 0% 50%;
+  }
+  
+ 50%{
+   background-position: 100% 50%;
+   
+ } 
+ 100% {
+    
+    background-position: 0% 50%;
+    
+  }
+  
+}
+  
+    .Htitle{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight:bold;
+      color: whitesmoke;
+    }
+ 
+  .menu-tongle{
+    background-color: black;
+    padding-top: 1px;
+   padding-bottom:.2px;
+   margin-top: 7.24px;
+    
+  }
+  .menu-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 10px;
+    
+    
+    
+  }
+  .menu-link:hover{
+    color: red;
+    
+  }
